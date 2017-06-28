@@ -18,13 +18,18 @@ end
 def veggies
 	veggies = ["onions","green peppers","mushrooms","no veggies"].sample
 end
+count = 0
+p "How many pizzas would you like?"
+x = gets.chomp.to_i
+x.times  do
+	count+=1
 
-
-
-
-
+	
+puts "pizza #{count}"
 puts"size is #{size}"
     puts crust
     puts cheese
     puts sauce
     puts meat
+    
+end
