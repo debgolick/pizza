@@ -15,10 +15,15 @@ end
 def meat
 	meat= ["pepperoni", "sasage", "bacon", "ham", "no meat" ].sample
 end
+def veggies
+	veggies = ["onions","green peppers","mushrooms","no veggies"].sample
+end
 
 
 
-	puts"size is #{size}"
+
+
+puts"size is #{size}"
     puts crust
     puts cheese
     puts sauce
