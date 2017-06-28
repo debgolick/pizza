@@ -12,7 +12,9 @@ end
 def sauce
 	sauce=["regular sauce", "marinara sause,""BBQ sauce", "alfredo souce"].sample
 end
-
+def meat
+	meat= ["pepperoni", "sasage", "bacon", "ham", "no meat" ].sample
+end
 
 
 
@@ -20,3 +22,4 @@ end
     puts crust
     puts cheese
     puts sauce
+    puts meat
