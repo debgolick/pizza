@@ -9,8 +9,9 @@ def cheese
 	cheese = ["no cheese", "light cheese","cheese," "extra cheese" ].sample
 end 
 	
-
-	
+def sauce
+	sauce=["regular sauce", "marinara sause,""BBQ sauce", "alfredo souce"].sample
+end
 
 
 
@@ -18,3 +19,4 @@ end
 	puts"size is #{size}"
     puts crust
     puts cheese
+    puts sauce
