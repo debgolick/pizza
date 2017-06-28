@@ -31,5 +31,7 @@ puts"size is #{size}"
     puts cheese
     puts sauce
     puts meat
-    
-end
+   puts veggies
+   puts "so your total for #{count} pizza`s is $#{count*12.99}"
+   end
+
